@@ -1,0 +1,12 @@
+<!doctype html>
+<html lang="en" ng-app="Profile_App" ng-controller="Profile_Controller">
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0-rc.0/angular.js"></script>
+        <script src="index.js"></script>
+    </head>
+    <body>
+    	<div ng-repeat="item in data.products">
+            <div>Name: {{item.name}} Price: {{item.price}}</div>
+        </div>
+    </body>
+</html>
